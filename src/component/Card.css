@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cardlist {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100;
+}
+
+
+.cardlist .cardlist1 img {
+    width: 85%;
+    height: 43Vh;
+    border-radius: 2rem;
+    margin: 6px;
+    gap: 10px;
+}
+
+.cardlist .cardlist1:hover img {
+    transform: scale(0.89);
+    filter: blur(0px);
+
+
+}
+
+
+.cardlist .cardlist1 button {
+    padding: 15px;
+    margin-left: 10.1rem;
+
+
+}
+
+/* <<<<<<<<<<<Product Card>>>>>>>>>>>>>> */
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+
+
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 300px;
+    height: 280px;
+    background: #000000;
+    padding: .5em;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card1 {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 1065px;
+    height: 350px;
+    background: #D70F64;
+    padding: 1rem;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    /* margin-bottom: 5rem; */
+    box-shadow: 0px 0px 10px 2px #161717;
+
+}
+
+.listies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fff;
+
+
+}
+
+/* .time {
+    width: 400px;
+    padding: 2rem;
+    height: auto;
+    margin-top: 2rem;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px 6px #D70F64;
+    color: #D70F64;
+    line-height: 3.5rem;
+} */
+
+.menuList {
+    margin-top: 2rem;
+    background-color: #D70F64;
+    width: auto;
+    height: auto;
+    overflow-y: hidden;
+    /* margin-left: 4.5rem; */
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* text-align: center; */
+    line-height: 4rem;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    box-shadow: 0px 0px 10px 2px #161717;
+}
+
+.menuList h3 {
+    font-size: 3rem;
+}
+
+.menuList1 {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* margin: 30px 20px; */
+    background-color: #FFF;
+    color: #D70F64;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menuList1 li {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem;
+    flex-direction: column;
+}
+
+.menuList1 button {
+    padding: 15px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    border-radius: 10px;
+    transition: 0.3s all;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+
+
+}
+
+.menuList1 img {
+    border-radius: 19px;
+    transition: 0.4s ease-in-out;
+    width: 100%;
+    height: 50%;
+    box-shadow: 0px 0px 5px 1px #161717;
+
+
+}
+
+.menuList1 img:hover {
+    transform: scale(1.1);
+}
+
+.menuList1 button:hover {
+    color: #c4e90d;
+    font-weight: 600;
+}
+
+.tag {
+    margin-top: 1rem;
+    text-transform: uppercase;
+    color: #14788e;
+    font-weight: 900;
+}
+
+.card-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20rem;
+    border-radius: 6px 6px 0 0;
+    border-radius: 10px;
+
+}
+
+.card-image1 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 76%;
+    border-radius: 6px 6px 0 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.card-image1 img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card-image1:hover {
+    transform: scale(0.99);
+}
+
+.city {
+    color: white;
+    margin-top: 10px;
+}
+
+.category {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    /* border-bottom: 2px solid #c4e90d; */
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: #c4e90d;
+    padding: 10px 7px 0;
+    /* font-size: 13px; */
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.heading {
+    font-weight: 600;
+    color: #FFF;
+    padding: 17px;    
+    line-height: 2.3rem;
+    position: relative;
+    width: 40%;
+}
+
+.heading:hover {
+    cursor: pointer;
+}
+
+.author {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+}
+
+.author2 {  
+    color: #FFF;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.author1 {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+
+.btn {
+    padding: 13px;
+    font-size: 14px;
+    background-color: #FFF;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #D70F64;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    top: 20rem;
+    left: 0.5rem;
+    margin: auto;
+    width: 95%;
+    transition: 0.4s ease-in-out;
+}
+
+.btnn {
+    padding: 13px;
+    font-size: 14px;
+    background-color: #D70F64;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: absolute;
+    top: 5rem;
+    left: 0.5rem;
+    transition: 0.4s ease-in-out;
+
+}
+
+.btnn:hover {
+    background-color: #14788e;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: #34495e;
+    font-weight: 700;
+
+
+}
+
+/* .d-page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.d-page h1 {
+    width: 49%;
+    text-align: center;
+    font-size: 40px;
+    background-color: #1e5a95;
+    color: white;
+    border: 1px solid #222f3e;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+} */
+
+/* <<<<<<<<<<<Product Card End>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<Footer>>>>>>>>>>>>> */
+
+.footer {
+    background-color: #000000;
+    color: #c4e90d;
+    width: a;
+    padding: 1rem;
+    height: auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+
+}
+
+.footer img {
+    position: absolute;
+    top: -1.2rem;
+    width: 12%;
+    filter: invert(1);
+}
